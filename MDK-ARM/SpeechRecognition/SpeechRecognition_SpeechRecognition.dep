@@ -1,0 +1,1238 @@
+Dependencies for Project 'SpeechRecognition', Target 'SpeechRecognition': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (startup_stm32h750xx.s)(0x64BD238E)(--cpu Cortex-M7.fp.dp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_SpeechRecognition-ID:\MDK_keil5\MDK_keil5_pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\MDK_keil5\MDK_keil5_pack\Keil\STM32H7xx_DFP\3.1.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include--pd "__UVISION_VERSION SETA 538" --pd "_RTE_ SETA 1" --pd "STM32H750xx SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32h750xx.lst --xref -o speechrecognition\startup_stm32h750xx.o --depend speechrecognition\startup_stm32h750xx.d)
+F (../Core/Src/main.c)(0x64BD3A58)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../DSP-I.\RTE\_SpeechRecognition-ID:\MDK_keil5\MDK_keil5_pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\MDK_keil5\MDK_keil5_pack\Keil\STM32H7xx_DFP\3.1.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o speechrecognition\main.o --omf_browse speechrecognition\main.crf --depend speechrecognition\main.d)
+I (../Core/Inc/main.h)(0x64BD19A8)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x64B1104B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x64BD1B08)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64B11048)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x64B1104B)
+I (../Core/Inc/adc.h)(0x64BD15E8)
+I (../Core/Inc/dma.h)(0x64BD15E8)
+I (../Core/Inc/tim.h)(0x64BD15E8)
+I (../Core/Inc/usart.h)(0x64BD1B08)
+I (../Core/Inc/gpio.h)(0x64BD15E7)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (../DSP/arm_math.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\float.h)(0x6025237E)
+I (../DSP/arm_const_structs.h)(0x64B1104B)
+I (../DSP/arm_common_tables.h)(0x64B1104A)
+F (../Core/Src/gpio.c)(0x64BD19A7)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../DSP-I.\RTE\_SpeechRecognition-ID:\MDK_keil5\MDK_keil5_pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\MDK_keil5\MDK_keil5_pack\Keil\STM32H7xx_DFP\3.1.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o speechrecognition\gpio.o --omf_browse speechrecognition\gpio.crf --depend speechrecognition\gpio.d)
+I (../Core/Inc/gpio.h)(0x64BD15E7)
+I (../Core/Inc/main.h)(0x64BD19A8)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x64B1104B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x64BD1B08)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64B11048)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x64B1104B)
+F (../Core/Src/adc.c)(0x64BD238B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../DSP-I.\RTE\_SpeechRecognition-ID:\MDK_keil5\MDK_keil5_pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\MDK_keil5\MDK_keil5_pack\Keil\STM32H7xx_DFP\3.1.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o speechrecognition\adc.o --omf_browse speechrecognition\adc.crf --depend speechrecognition\adc.d)
+I (../Core/Inc/adc.h)(0x64BD15E8)
+I (../Core/Inc/main.h)(0x64BD19A8)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x64B1104B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x64BD1B08)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64B11048)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x64B1104B)
+F (../Core/Src/dma.c)(0x64BD15E8)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../DSP-I.\RTE\_SpeechRecognition-ID:\MDK_keil5\MDK_keil5_pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\MDK_keil5\MDK_keil5_pack\Keil\STM32H7xx_DFP\3.1.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o speechrecognition\dma.o --omf_browse speechrecognition\dma.crf --depend speechrecognition\dma.d)
+I (../Core/Inc/dma.h)(0x64BD15E8)
+I (../Core/Inc/main.h)(0x64BD19A8)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x64B1104B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x64BD1B08)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64B11048)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x64B1104B)
+F (../Core/Src/tim.c)(0x64BD2144)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../DSP-I.\RTE\_SpeechRecognition-ID:\MDK_keil5\MDK_keil5_pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\MDK_keil5\MDK_keil5_pack\Keil\STM32H7xx_DFP\3.1.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o speechrecognition\tim.o --omf_browse speechrecognition\tim.crf --depend speechrecognition\tim.d)
+I (../Core/Inc/tim.h)(0x64BD15E8)
+I (../Core/Inc/main.h)(0x64BD19A8)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x64B1104B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x64BD1B08)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64B11048)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x64B1104B)
+F (../Core/Src/usart.c)(0x64BD1B08)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../DSP-I.\RTE\_SpeechRecognition-ID:\MDK_keil5\MDK_keil5_pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\MDK_keil5\MDK_keil5_pack\Keil\STM32H7xx_DFP\3.1.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o speechrecognition\usart.o --omf_browse speechrecognition\usart.crf --depend speechrecognition\usart.d)
+I (../Core/Inc/usart.h)(0x64BD1B08)
+I (../Core/Inc/main.h)(0x64BD19A8)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x64B1104B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x64BD1B08)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64B11048)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x64B1104B)
+F (../Core/Src/stm32h7xx_it.c)(0x64BD15E8)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../DSP-I.\RTE\_SpeechRecognition-ID:\MDK_keil5\MDK_keil5_pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\MDK_keil5\MDK_keil5_pack\Keil\STM32H7xx_DFP\3.1.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o speechrecognition\stm32h7xx_it.o --omf_browse speechrecognition\stm32h7xx_it.crf --depend speechrecognition\stm32h7xx_it.d)
+I (../Core/Inc/main.h)(0x64BD19A8)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x64B1104B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x64BD1B08)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64B11048)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x64B1104B)
+I (../Core/Inc/stm32h7xx_it.h)(0x64BD15E8)
+F (../Core/Src/stm32h7xx_hal_msp.c)(0x64BD15E8)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../DSP-I.\RTE\_SpeechRecognition-ID:\MDK_keil5\MDK_keil5_pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\MDK_keil5\MDK_keil5_pack\Keil\STM32H7xx_DFP\3.1.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o speechrecognition\stm32h7xx_hal_msp.o --omf_browse speechrecognition\stm32h7xx_hal_msp.crf --depend speechrecognition\stm32h7xx_hal_msp.d)
+I (../Core/Inc/main.h)(0x64BD19A8)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x64B1104B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x64BD1B08)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64B11048)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x64B1104B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c)(0x64B1104B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../DSP-I.\RTE\_SpeechRecognition-ID:\MDK_keil5\MDK_keil5_pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\MDK_keil5\MDK_keil5_pack\Keil\STM32H7xx_DFP\3.1.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o speechrecognition\stm32h7xx_hal_adc.o --omf_browse speechrecognition\stm32h7xx_hal_adc.crf --depend speechrecognition\stm32h7xx_hal_adc.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x64B1104B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x64BD1B08)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64B11048)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x64B1104B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c)(0x64B1104B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../DSP-I.\RTE\_SpeechRecognition-ID:\MDK_keil5\MDK_keil5_pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\MDK_keil5\MDK_keil5_pack\Keil\STM32H7xx_DFP\3.1.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o speechrecognition\stm32h7xx_hal_adc_ex.o --omf_browse speechrecognition\stm32h7xx_hal_adc_ex.crf --depend speechrecognition\stm32h7xx_hal_adc_ex.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x64B1104B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x64BD1B08)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64B11048)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x64B1104B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c)(0x64B1104B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../DSP-I.\RTE\_SpeechRecognition-ID:\MDK_keil5\MDK_keil5_pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\MDK_keil5\MDK_keil5_pack\Keil\STM32H7xx_DFP\3.1.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o speechrecognition\stm32h7xx_hal_rcc.o --omf_browse speechrecognition\stm32h7xx_hal_rcc.crf --depend speechrecognition\stm32h7xx_hal_rcc.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x64B1104B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x64BD1B08)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64B11048)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x64B1104B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c)(0x64B1104B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../DSP-I.\RTE\_SpeechRecognition-ID:\MDK_keil5\MDK_keil5_pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\MDK_keil5\MDK_keil5_pack\Keil\STM32H7xx_DFP\3.1.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o speechrecognition\stm32h7xx_hal_rcc_ex.o --omf_browse speechrecognition\stm32h7xx_hal_rcc_ex.crf --depend speechrecognition\stm32h7xx_hal_rcc_ex.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x64B1104B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x64BD1B08)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64B11048)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x64B1104B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c)(0x64B1104B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../DSP-I.\RTE\_SpeechRecognition-ID:\MDK_keil5\MDK_keil5_pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\MDK_keil5\MDK_keil5_pack\Keil\STM32H7xx_DFP\3.1.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o speechrecognition\stm32h7xx_hal_flash.o --omf_browse speechrecognition\stm32h7xx_hal_flash.crf --depend speechrecognition\stm32h7xx_hal_flash.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x64B1104B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x64BD1B08)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64B11048)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x64B1104B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c)(0x64B1104B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../DSP-I.\RTE\_SpeechRecognition-ID:\MDK_keil5\MDK_keil5_pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\MDK_keil5\MDK_keil5_pack\Keil\STM32H7xx_DFP\3.1.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o speechrecognition\stm32h7xx_hal_flash_ex.o --omf_browse speechrecognition\stm32h7xx_hal_flash_ex.crf --depend speechrecognition\stm32h7xx_hal_flash_ex.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x64B1104B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x64BD1B08)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64B11048)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x64B1104B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c)(0x64B1104B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../DSP-I.\RTE\_SpeechRecognition-ID:\MDK_keil5\MDK_keil5_pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\MDK_keil5\MDK_keil5_pack\Keil\STM32H7xx_DFP\3.1.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o speechrecognition\stm32h7xx_hal_gpio.o --omf_browse speechrecognition\stm32h7xx_hal_gpio.crf --depend speechrecognition\stm32h7xx_hal_gpio.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x64B1104B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x64BD1B08)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64B11048)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x64B1104B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c)(0x64B1104B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../DSP-I.\RTE\_SpeechRecognition-ID:\MDK_keil5\MDK_keil5_pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\MDK_keil5\MDK_keil5_pack\Keil\STM32H7xx_DFP\3.1.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o speechrecognition\stm32h7xx_hal_hsem.o --omf_browse speechrecognition\stm32h7xx_hal_hsem.crf --depend speechrecognition\stm32h7xx_hal_hsem.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x64B1104B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x64BD1B08)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64B11048)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x64B1104B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c)(0x64B1104B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../DSP-I.\RTE\_SpeechRecognition-ID:\MDK_keil5\MDK_keil5_pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\MDK_keil5\MDK_keil5_pack\Keil\STM32H7xx_DFP\3.1.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o speechrecognition\stm32h7xx_hal_dma.o --omf_browse speechrecognition\stm32h7xx_hal_dma.crf --depend speechrecognition\stm32h7xx_hal_dma.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x64B1104B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x64BD1B08)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64B11048)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x64B1104B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c)(0x64B1104B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../DSP-I.\RTE\_SpeechRecognition-ID:\MDK_keil5\MDK_keil5_pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\MDK_keil5\MDK_keil5_pack\Keil\STM32H7xx_DFP\3.1.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o speechrecognition\stm32h7xx_hal_dma_ex.o --omf_browse speechrecognition\stm32h7xx_hal_dma_ex.crf --depend speechrecognition\stm32h7xx_hal_dma_ex.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x64B1104B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x64BD1B08)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64B11048)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x64B1104B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c)(0x64B1104B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../DSP-I.\RTE\_SpeechRecognition-ID:\MDK_keil5\MDK_keil5_pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\MDK_keil5\MDK_keil5_pack\Keil\STM32H7xx_DFP\3.1.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o speechrecognition\stm32h7xx_hal_mdma.o --omf_browse speechrecognition\stm32h7xx_hal_mdma.crf --depend speechrecognition\stm32h7xx_hal_mdma.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x64B1104B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x64BD1B08)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64B11048)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x64B1104B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c)(0x64B1104B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../DSP-I.\RTE\_SpeechRecognition-ID:\MDK_keil5\MDK_keil5_pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\MDK_keil5\MDK_keil5_pack\Keil\STM32H7xx_DFP\3.1.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o speechrecognition\stm32h7xx_hal_pwr.o --omf_browse speechrecognition\stm32h7xx_hal_pwr.crf --depend speechrecognition\stm32h7xx_hal_pwr.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x64B1104B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x64BD1B08)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64B11048)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x64B1104B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c)(0x64B1104B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../DSP-I.\RTE\_SpeechRecognition-ID:\MDK_keil5\MDK_keil5_pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\MDK_keil5\MDK_keil5_pack\Keil\STM32H7xx_DFP\3.1.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o speechrecognition\stm32h7xx_hal_pwr_ex.o --omf_browse speechrecognition\stm32h7xx_hal_pwr_ex.crf --depend speechrecognition\stm32h7xx_hal_pwr_ex.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x64B1104B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x64BD1B08)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64B11048)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x64B1104B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c)(0x64B1104B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../DSP-I.\RTE\_SpeechRecognition-ID:\MDK_keil5\MDK_keil5_pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\MDK_keil5\MDK_keil5_pack\Keil\STM32H7xx_DFP\3.1.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o speechrecognition\stm32h7xx_hal_cortex.o --omf_browse speechrecognition\stm32h7xx_hal_cortex.crf --depend speechrecognition\stm32h7xx_hal_cortex.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x64B1104B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x64BD1B08)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64B11048)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x64B1104B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c)(0x64B1104B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../DSP-I.\RTE\_SpeechRecognition-ID:\MDK_keil5\MDK_keil5_pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\MDK_keil5\MDK_keil5_pack\Keil\STM32H7xx_DFP\3.1.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o speechrecognition\stm32h7xx_hal.o --omf_browse speechrecognition\stm32h7xx_hal.crf --depend speechrecognition\stm32h7xx_hal.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x64B1104B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x64BD1B08)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64B11048)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x64B1104B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c)(0x64B1104B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../DSP-I.\RTE\_SpeechRecognition-ID:\MDK_keil5\MDK_keil5_pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\MDK_keil5\MDK_keil5_pack\Keil\STM32H7xx_DFP\3.1.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o speechrecognition\stm32h7xx_hal_i2c.o --omf_browse speechrecognition\stm32h7xx_hal_i2c.crf --depend speechrecognition\stm32h7xx_hal_i2c.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x64B1104B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x64BD1B08)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64B11048)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x64B1104B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c)(0x64B1104B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../DSP-I.\RTE\_SpeechRecognition-ID:\MDK_keil5\MDK_keil5_pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\MDK_keil5\MDK_keil5_pack\Keil\STM32H7xx_DFP\3.1.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o speechrecognition\stm32h7xx_hal_i2c_ex.o --omf_browse speechrecognition\stm32h7xx_hal_i2c_ex.crf --depend speechrecognition\stm32h7xx_hal_i2c_ex.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x64B1104B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x64BD1B08)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64B11048)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x64B1104B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c)(0x64B1104B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../DSP-I.\RTE\_SpeechRecognition-ID:\MDK_keil5\MDK_keil5_pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\MDK_keil5\MDK_keil5_pack\Keil\STM32H7xx_DFP\3.1.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o speechrecognition\stm32h7xx_hal_exti.o --omf_browse speechrecognition\stm32h7xx_hal_exti.crf --depend speechrecognition\stm32h7xx_hal_exti.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x64B1104B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x64BD1B08)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64B11048)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x64B1104B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c)(0x64B1104B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../DSP-I.\RTE\_SpeechRecognition-ID:\MDK_keil5\MDK_keil5_pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\MDK_keil5\MDK_keil5_pack\Keil\STM32H7xx_DFP\3.1.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o speechrecognition\stm32h7xx_hal_tim.o --omf_browse speechrecognition\stm32h7xx_hal_tim.crf --depend speechrecognition\stm32h7xx_hal_tim.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x64B1104B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x64BD1B08)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64B11048)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x64B1104B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c)(0x64B1104B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../DSP-I.\RTE\_SpeechRecognition-ID:\MDK_keil5\MDK_keil5_pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\MDK_keil5\MDK_keil5_pack\Keil\STM32H7xx_DFP\3.1.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o speechrecognition\stm32h7xx_hal_tim_ex.o --omf_browse speechrecognition\stm32h7xx_hal_tim_ex.crf --depend speechrecognition\stm32h7xx_hal_tim_ex.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x64B1104B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x64BD1B08)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64B11048)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x64B1104B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c)(0x64B1104B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../DSP-I.\RTE\_SpeechRecognition-ID:\MDK_keil5\MDK_keil5_pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\MDK_keil5\MDK_keil5_pack\Keil\STM32H7xx_DFP\3.1.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o speechrecognition\stm32h7xx_hal_uart.o --omf_browse speechrecognition\stm32h7xx_hal_uart.crf --depend speechrecognition\stm32h7xx_hal_uart.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x64B1104B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x64BD1B08)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64B11048)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x64B1104B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c)(0x64B1104B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../DSP-I.\RTE\_SpeechRecognition-ID:\MDK_keil5\MDK_keil5_pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\MDK_keil5\MDK_keil5_pack\Keil\STM32H7xx_DFP\3.1.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o speechrecognition\stm32h7xx_hal_uart_ex.o --omf_browse speechrecognition\stm32h7xx_hal_uart_ex.crf --depend speechrecognition\stm32h7xx_hal_uart_ex.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x64B1104B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x64BD1B08)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64B11048)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x64B1104B)
+F (../Core/Src/system_stm32h7xx.c)(0x64B11048)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../DSP-I.\RTE\_SpeechRecognition-ID:\MDK_keil5\MDK_keil5_pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\MDK_keil5\MDK_keil5_pack\Keil\STM32H7xx_DFP\3.1.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o speechrecognition\system_stm32h7xx.o --omf_browse speechrecognition\system_stm32h7xx.crf --depend speechrecognition\system_stm32h7xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64B11048)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64B1104B)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64B1104B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64B11048)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x64B1104B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x64BD1B08)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64B1104B)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK_keil5\MDK_keil5_core\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x64B1104B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x64B1104B)
+F (..\DSP\arm_cortexM7lfdp_math.lib)(0x64B1104B)()
